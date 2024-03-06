@@ -2,17 +2,37 @@
 
 /*font-family: 'Roboto', sans-serif;*/
 
+
+/*********PARTE SUPERIOR COMPARTIDA*********/
 body {
     font-family: 'Roboto', sans-serif;
+    text: black;
 }
 
 .marquee {
-    color: rgb(0, 0, 0);
+    color: black;
+    background-color: #fdebc3;
     font-size: 14px;
-    padding: 10px 0px 0px;
+    padding: 4px 0px 0px;
     font-weight: 500;
 }
 
+/*********navbar*********/
+.navbar .nav-item a {
+    color: black;
+    font-weight: 500;
+}
+
+.navbar .nav-item a:hover {
+    color: black;
+    font-weight: 800;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/*********PARTE MEDIA INDEX*********/
 .imgFondo {
     background-image: url(/multimedia/foto_fondo_mobile.png);
     background-size: cover;
@@ -20,13 +40,120 @@ body {
     height: 100vh;
 }
 
+/*********PARTE MEDIA SHOP*********/
 
-.nav-item a {
-    color: black;
-    font-weight: 500;
+.productos img {
+    width: 100%;
+    height: auto;
 }
 
-.nav-item a:hover {
+.galeria h1 {
+    font-size: 16px;
+}
+
+.textProd a {
+    text-decoration: none;
+    font-weight: 600;
     color: black;
-    font-weight: 500;
+}
+
+.galeria a:hover {
+    font-style: italic;
+    font-weight: 800;
+    color: black;
+}
+
+.pay {
+    font-size: 12px;
+}
+
+.galeria article img{
+    height: auto;
+    width: 100%;
+}
+
+.galeria a:hover img {
+    border: 1px solid black;
+}
+
+.pagination {
+    text-align: center;
+}
+
+/***********PARTE MEDIA - NEWSLETTER**********/
+
+.newsletter {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.newsletter h1 {
+    font-size: 20px;
+    padding: 0px 0px 10px;
+}
+
+.newsletter p {
+    font-size: 12px;
+    padding: 0px 0px 10px;
+}
+
+
+/**********PARTE INFERIOR INDEX*********/
+
+footer {
+    text-align: center;
+    background-color: #fdebc3;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.navInf a, .redes a, .contacto a {
+    text-decoration: none;
+    color: black;
+}
+
+.navInf a:hover, .contacto a:hover{
+    font-style: italic;
+    font-weight: 600;
+}
+
+.redes {
+    letter-spacing: 10px;
+    margin: 10px;
+}
+
+.what{
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+
+
+/********** MEDIA QUERIES ***********/
+
+/*MEDIA QUERIES TABLET*/
+
+@media only screen and (min-width:658px) {
+
+}
+
+
+    /*MEDIA QUERIES DESKTOP*/
+    
+@media only screen and (min-width:980px) {
+    .imgFondo {
+        background-image: url(/multimedia/foto_fondo_desktop.jpg);
+        background-size: cover;
+        height: 800px; 
+    }
 }
