@@ -42,7 +42,7 @@ body {
 
 /*********PARTE MEDIA SHOP*********/
 
-.productos img {
+.productos img, .refTalles img {
     width: 100%;
     height: auto;
 }
@@ -80,12 +80,41 @@ body {
     text-align: center;
 }
 
+/*********PARTE MEDIA ACERCA DE*********/
+.textosDesarrollo h1{
+    padding: 30px 60px 10px 60px;
+    font-size: 42px;
+    line-height: 40px;
+    font-weight: 300;
+}
+.textosDesarrollo p {
+    padding: 30px;
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: 300;
+}
+
+.colorFondo {
+    background-color: #FFFAEB;
+}
+
+/*********PARTE MEDIA PROYECTOS*********/
+.proyectos {
+    padding: 0px 5px 10px 33px;
+}
+
+.proyectos img {
+    border-radius: 1.5%;
+}
+
+
+
+
 /***********PARTE MEDIA - NEWSLETTER**********/
 
 .newsletter {
     text-align: center;
     padding: 20px;
-    margin: 20px;
 }
 
 .newsletter h1 {
@@ -156,4 +185,11 @@ footer {
         background-size: cover;
         height: 800px; 
     }
+}
+
+
+
+.navSuperior a.current {
+    font-weight: 800;
+    color: black;
 }
