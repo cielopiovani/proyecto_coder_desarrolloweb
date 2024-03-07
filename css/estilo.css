@@ -18,14 +18,22 @@ body {
 }
 
 /*********navbar*********/
+
+.navbar {
+    /*position: absolute;*/
+    background-color: #fdebc3b0;
+    margin: 10px;
+    padding: 4px;
+}
+
 .navbar .nav-item a {
-    color: black;
     font-weight: 500;
 }
 
 .navbar .nav-item a:hover {
     color: black;
     font-weight: 800;
+    font-style: italic;
 }
 
 .navbar-toggler {
@@ -39,6 +47,7 @@ body {
     background-position: center;
     height: 100vh;
 }
+
 
 /*********PARTE MEDIA SHOP*********/
 
@@ -106,8 +115,6 @@ body {
 .proyectos img {
     border-radius: 1.5%;
 }
-
-
 
 
 /***********PARTE MEDIA - NEWSLETTER**********/
@@ -179,17 +186,10 @@ footer {
 
     /*MEDIA QUERIES DESKTOP*/
     
-@media only screen and (min-width:980px) {
+@media only screen and (min-width:560px) {
     .imgFondo {
-        background-image: url(/multimedia/foto_fondo_desktop.jpg);
+        background-image: url(/multimedia/aventuras\ de\ verano.jpg);
         background-size: cover;
         height: 800px; 
     }
-}
-
-
-
-.navSuperior a.current {
-    font-weight: 800;
-    color: black;
 }
