@@ -33,41 +33,51 @@
         <!--FIN encabezado con mov-->
 
         <!--EMPIEZA NAVBAR-->
-            <nav class="navbar navbar-expand-lg navbar-light">
-                
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="javascript:void(0)"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-    
-                    <div class="collapse navbar-collapse" id="mynavbar">
-                        <ul class="navbar-nav me-auto">
-                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="shop.html">SHOP</a>
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+                <!--logo-->
+                <a class="navbar-brand fs-4" href="#">DUNAS</a>
+                <!--boton btn-->
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--sidebar-->
+                    <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <!--sidebar header-->
+                        <div class="offcanvas-header text-white border-bottom">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">DUNAS</h5>
+                            <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close">
+                            </button>
+                        </div>
+                        <!--sidebar body-->
+                        <div class="offcanvas-body"> <div class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="./pages/shop.html">SHOP</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link active" aria-current="page"
-                                    href="proyectos_fotográficos.html">PROJECTS &
-                                    COLLABS</a></li>
-                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="acerca_de.html">ACERCA
-                                    DE</a>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="./pages/proyectos_fotográficos.html">PROJECTS & COLLABS</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">TALLES</a>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="./pages/acerca_de.html">ACERCA DE</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link active" aria-current="page"
-                                    href="contacto.html">CONTACTO</a>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="./pages/talles.html">TALLES</a>
                             </li>
-                        </ul>
-                        </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="text" placeholder="Buscar">
-                            <button class="btn btn-primary" type="button">Buscar</button>
-                        </form>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                            </li>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center gap-5">
+                            <button class="btn px-4 py-1 rounded-4" type="submit"> Buscar </button>
+                        </div>
                     </div>
-                </div>
-            </nav>
+            </div>
+        </nav>
         <!--TERMINA NAVBAR-->
-    </div>
-    <!--TERMINA LA IMAGEN FONDO-->
+
+    </div><!--TERMINA LA IMAGEN FONDO-->
+    
 
     <!--ARRANCA SECTION NEWSLETER-->
     <section class="newsletter">

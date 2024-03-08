@@ -6,21 +6,25 @@
 /*********PARTE SUPERIOR COMPARTIDA*********/
 body {
     font-family: 'Roboto', sans-serif;
-    text: black;
+    color: black;
 }
 
 .marquee {
-    color: black;
-    background-color: #fdebc3;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.856);
     font-size: 14px;
     padding: 4px 0px 0px;
     font-weight: 500;
 }
 
-/*********navbar*********/
+/*********inicio navbar*********/
 
+.btn {
+    background-color: rgb(255, 255, 255);
+}
+
+/*
 .navbar {
-    /*position: absolute;*/
     background-color: #fdebc3b0;
     margin: 10px;
     padding: 4px;
@@ -40,18 +44,22 @@ body {
     border: none;
 }
 
+.form-control {
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}*/
+
 /*********PARTE MEDIA INDEX*********/
 .imgFondo {
-    background-image: url(/multimedia/foto_fondo_mobile.png);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+        background-image: url('../multimedia/foto_fondo_mobile.png');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
 }
 
-
 /*********PARTE MEDIA SHOP*********/
-
-.productos img, .refTalles img {
+.productos img, .refTalles img, .proyectos img{
     width: 100%;
     height: auto;
 }
@@ -108,17 +116,36 @@ body {
 }
 
 /*********PARTE MEDIA PROYECTOS*********/
-.proyectos {
-    padding: 0px 5px 10px 33px;
+
+.textProy {
+    padding: 5px;
+    margin: 10px;
+}
+
+.textProy a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.textProy a:hover {
+    text-decoration: none;
+    color: black;
+    border: none;
+    padding: 8px;
+    border-radius: 20px;
+    font-weight: 700;
+    background-color: #fdebc3;
 }
 
 .proyectos img {
     border-radius: 1.5%;
 }
 
-
 /***********PARTE MEDIA - NEWSLETTER**********/
-
 .newsletter {
     text-align: center;
     padding: 20px;
@@ -135,8 +162,7 @@ body {
 }
 
 
-/**********PARTE INFERIOR INDEX*********/
-
+/**********PARTE INFERIOR*********/
 footer {
     text-align: center;
     background-color: #fdebc3;
@@ -174,22 +200,19 @@ footer {
 }
 
 
-
 /********** MEDIA QUERIES ***********/
 
 /*MEDIA QUERIES TABLET*/
-
-@media only screen and (min-width:658px) {
-
-}
-
-
-    /*MEDIA QUERIES DESKTOP*/
     
 @media only screen and (min-width:560px) {
     .imgFondo {
-        background-image: url(/multimedia/aventuras\ de\ verano.jpg);
+        background-image: url('../multimedia/foto_fondo_desktop.jpg');
         background-size: cover;
-        height: 800px; 
+        height: 800px; }
+    }
+
+@media(max-width: 991px) {
+    .sidebar {
+        background-color:#fdebc3;
     }
 }

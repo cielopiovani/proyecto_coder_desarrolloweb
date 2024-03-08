@@ -22,6 +22,8 @@
 </head>
 
 <body>
+    <div class="colorFondo">
+
     <!--INICIO encabezado con mov-->
     <div class="marquee">
         <p>
@@ -29,59 +31,65 @@
         </p>
     </div>
     <!--FIN encabezado con mov-->
-
         <!--EMPIEZA NAVBAR-->
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
-                
-            <div class="container-fluid">
-                <a class="navbar-brand" href="javascript:void(0)"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                    <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+                <!--logo-->
+                <a class="navbar-brand fs-4" href="../index.html">DUNAS</a>
+                <!--boton btn-->
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <div class="collapse navbar-collapse" id="mynavbar">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="shop.html">SHOP</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page"
-                                href="proyectos_fotográficos.html">PROJECTS &
-                                COLLABS</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="acerca_de.html">ACERCA
-                                DE</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">TALLES</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page"
-                                href="contacto.html">CONTACTO</a>
-                        </li>
-                    </ul>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="text" placeholder="Buscar">
-                        <button class="btn btn-primary" type="button">Buscar</button>
-                    </form>
-                </div>
+                <!--sidebar-->
+                    <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <!--sidebar header-->
+                        <div class="offcanvas-header text-white border-bottom">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">DUNAS</h5>
+                            <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close">
+                            </button>
+                        </div>
+                        <!--sidebar body-->
+                        <div class="offcanvas-body"> <div class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="shop.html">SHOP</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="proyectos_fotográficos.html">PROJECTS & COLLABS</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" aria-current="page" href="#">ACERCA DE</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="talles.html">TALLES</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="contacto.html">CONTACTO</a>
+                            </li>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center gap-5">
+                            <button class="btn px-4 py-1 rounded-4" type="submit"> Buscar </button>
+                        </div>
+                    </div>
             </div>
         </nav>
-    <!--TERMINA NAVBAR-->
+        <!--TERMINA NAVBAR-->
+
 
     <h1 class="text-center text-black m-4">SOBRE DUNAS</h1>
 
     <!--EMPIEZA TEXTO PRINCIPAL-->
     <section class="textosDesarrollo text-center">
-        <h1>Desde DUNAS, creemos que una industria nacional digna y de calidad es posible <i>-siendo una pequeña marca lo hemos logrado!-</i>, en donde todos los actores involucrados son esenciales para poder llevar adelante la producción y el desarrollo de una proyecto como el nuestro.</h1>
-        <h1>Dunas es una marca de ropa interior ética localizada en Argentina, confeccionada por mujeres de cooperativas textiles, que llevan adelante un trabajo regulado, transparente y digno.</h1><br>
-        <img src="/multimedia/acerca_de_1.jpg" alt="Mujeres con ropa interior de algodón con colores que remiten al otoño" width="500px" height="auto">
+        <p>Desde DUNAS, creemos que una industria nacional digna y de calidad es posible <i>-siendo una pequeña marca lo hemos logrado!-</i>, en donde todos los actores involucrados son esenciales para poder llevar adelante la producción y el desarrollo de una proyecto como el nuestro.
+        <br>Dunas es una marca de ropa interior ética localizada en Argentina, confeccionada por mujeres de cooperativas textiles, que llevan adelante un trabajo regulado, transparente y digno.</p><br>
+        <img src="../multimedia/acerca_de_1.jpg" alt="Mujeres con ropa interior de algodón con colores que remiten al otoño" width="500px" height="auto">
         <p>Nuestras piezas representan nuestro compromiso con la libertad de nuestros cuerpos, resaltando su belleza, sus formas y transformaciones.
         Nos enfocamos en desarrollar patrones simples y cómodos que acompañan y se adaptan a los movimientos corporales cotidianos.</p>
         <p>Nuestras prendas son de algodón de alta calidad, lo que las hace piezas sutiles y agradables para la piel.Creamos colaboraciones con artistas argentinas que admiramos por su trabajo, su mirada y su sensibilidad.
         Todas las personas que forman parte de nuestras fotos, son usuarixs reales de Dunas -la convocatoria siempre esta abierta-, porque creemos que de ésta manera podemos mostrar la diversidad de nuestras formas.</p>
-        <img src="/multimedia/acerca_de_2.jpeg" alt="Dos mujeres en una exposición colgando una bandera que dice Dunas" width="400" height="auto">
+        <img src="../multimedia/acerca_de_2.jpeg" alt="Dos mujeres en una exposición colgando una bandera que dice Dunas" width="400" height="auto">
         <p>Gracias por confiar en nuestra marca, y leernos. <br>Equipo de DUNAS :)</p>
     </section>
     <!--TERMINA TEXTO PRINCIPAL-->
-
-
 
 
     <!--ARRANCA EL FOOTER-->
@@ -106,7 +114,6 @@
             <div class="col-12 col-xl-2">
                 <a href="contacto.html">CONTACTO</a>
             </div>
-
         </div>
         <nav class="redes">
             <a href="https://www.instagram.com/dunas.ar/" target="_blank"><i class="fa-brands fa-instagram"></i>

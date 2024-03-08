@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <div class="colorFondo">
+
     <!--INICIO encabezado con mov-->
     <div class="marquee">
         <p>
@@ -31,73 +31,82 @@
     </div>
     <!--FIN encabezado con mov-->
 
-        <!--EMPIEZA NAVBAR-->
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
-                
-            <div class="container-fluid">
-                <a class="navbar-brand" href="javascript:void(0)"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <!--EMPIEZA NAVBAR-->
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container">
+                    <!--logo-->
+                    <a class="navbar-brand fs-4" href="../index.html">DUNAS</a>
+                    <!--boton btn-->
+                    <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" >
                     <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="mynavbar">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="shop.html">SHOP</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page"
-                                href="proyectos_fotográficos.html">PROJECTS &
-                                COLLABS</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="acerca_de.html">ACERCA
-                                DE</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">TALLES</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page"
-                                href="contacto.html">CONTACTO</a>
-                        </li>
-                    </ul>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="text" placeholder="Buscar">
-                        <button class="btn btn-primary" type="button">Buscar</button>
-                    </form>
+                    </button>
+                    <!--sidebar-->
+                        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <!--sidebar header-->
+                            <div class="offcanvas-header text-white border-bottom">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">DUNAS</h5>
+                                <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close">
+                                </button>
+                            </div>
+                            <!--sidebar body-->
+                            <div class="offcanvas-body"> <div class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link " href="shop.html">SHOP</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link active" aria-current="page" href="#">PROJECTS & COLLABS</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link" href="acerca_de.html">ACERCA DE</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link" href="talles.html">TALLES</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link" href="contacto.html">CONTACTO</a>
+                                </li>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center gap-5">
+                                <button class="btn px-4 py-1 rounded-4" type="submit"> Buscar </button>
+                            </div>
+                        </div>
                 </div>
-            </div>
-        </nav>
-    <!--TERMINA NAVBAR-->
+            </nav>
+            <!--TERMINA NAVBAR-->
 
     <h1 class="text-center text-black m-4">PROYECTOS ARTÍSTICOS</h1>
 
 
-    <section>
-        <div class="proyectos">
-            <img src="/multimedia/proyectos_1.png" alt="proyecto1" width="auto" height="400px">
-            <P>Fecha</P>
-            <P>BIENVENIDO 2024</P>
-            <a href="#">VER PROYECTO</a>
-        </div>
-        <div class="proyectos">
-            <img src="/multimedia/proyecto_2.jpg" alt="proyecto2" width="auto" height="400px">
-                <p>Fecha</p>
-                <p>AVENTURAS DE VERANO</p>
-                <a href="#">VER PROYECTO</a>
-        </div>
-        <div class="proyectos">
-            <img src="/multimedia/proyecto_3.JPG" alt="proyecto3" width="auto" height="400px">
-            <p>Fecha</p>
-            <p>PLAYA Y ACANTILADOS</p>
-            <a href="#">VER PROYECTO</a>
-        </div>
-        <div class="proyectos">
-            <img src="/multimedia/proyecto_4.jpg" alt="proyecto4" width="auto" height="400px">
-            <P>Fecha</P>
-            <P>TARDES DE OTOÑO</P>
-            <a href="#">VER PROYECTO</a>
-        </div>
-    </section>
-</div>
-
-
+    <div class="container-fluid">
+        <div class="row proyectos m-2">
+            <div class="col-proyectos col-12 col-sm-6 text-center">
+                <a href="#"> <img src="../multimedia/proyectos_1.png" alt="proyecto_1"></a>
+                <div class="textProy">
+                        <h5>BIENVENIDO 2024</h5>
+                        <a href="#">VER PROYECTO</a>
+                </div>
+            </div>
+            <div class="col-proyectos col-12 col-sm-6 text-center">
+                <a href="#"> <img src="../multimedia/proyecto_2.jpg" alt="proyecto_2"></a>
+                <div class="textProy">
+                    <h5>AVENTURAS DE VERANO</h5>
+                    <a href="#">VER PROYECTO</a>
+                </div>
+            </div>
+            <div class="col-proyectos col-12 col-sm-6 text-center">
+                <a href="#"> <img src="../multimedia/proyecto_3.JPG" alt="proyecto_3"></a>
+                <div class="textProy">
+                    <h5>PLAYA Y ACANTILADOS</h5>
+                    <a href="#">VER PROYECTO</a>
+                </div>
+            </div>
+            <div class="col-proyectos col-12 col-sm-6 text-center">
+                <a href="#"> <img src="../multimedia/proyecto_4.jpg" alt="proyecto_4"></a>
+                <div class="textProy">
+                    <h5>TARDES DE OTOÑO</h5>
+                    <a href="#">VER PROYECTO</a>
+                </div>
+            </div>
 
     <!--ARRANCA EL FOOTER-->
     <footer>
@@ -121,7 +130,6 @@
             <div class="col-12 col-xl-2">
                 <a href="contacto.html">CONTACTO</a>
             </div>
-
         </div>
         <nav class="redes">
             <a href="https://www.instagram.com/dunas.ar/" target="_blank"><i class="fa-brands fa-instagram"></i>

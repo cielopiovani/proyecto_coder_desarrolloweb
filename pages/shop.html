@@ -22,211 +22,220 @@
 </head>
 
 <body>
-        <!--INICIO encabezado con mov-->
-        <div class="marquee">
-            <p>
-                <marquee>ENVIOS A TODO EL PAÍS - 3 CUOTAS SIN INTERES O 15% OFF POR TRANSFERENCIA</marquee>
-            </p>
-        </div>
-        <!--FIN encabezado con mov-->
+    <!--INICIO encabezado con mov-->
+    <div class="marquee">
+        <p>
+            <marquee>ENVIOS A TODO EL PAÍS - 3 CUOTAS SIN INTERES O 15% OFF POR TRANSFERENCIA</marquee>
+        </p>
+    </div>
+    <!--FIN encabezado con mov-->
 
-        <!--EMPIEZA NAVBAR-->
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
-                
-            <div class="container-fluid">
-                <a class="navbar-brand" href="javascript:void(0)"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="mynavbar">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="shop.html">SHOP</a>
+    <!--EMPIEZA NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+            <!--logo-->
+            <a class="navbar-brand fs-4" href="../index.html">DUNAS</a>
+            <!--boton btn-->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--sidebar-->
+                <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <!--sidebar header-->
+                    <div class="offcanvas-header text-white border-bottom">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">DUNAS</h5>
+                        <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close">
+                        </button>
+                    </div>
+                    <!--sidebar body-->
+                    <div class="offcanvas-body"> <div class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active" aria-current="page" href="#">SHOP</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page"
-                                href="proyectos_fotográficos.html">PROJECTS &
-                                COLLABS</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="acerca_de.html">ACERCA
-                                DE</a>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="proyectos_fotográficos.html">PROJECTS & COLLABS</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">TALLES</a>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="acerca_de.html">ACERCA DE</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page"
-                                href="contacto.html">CONTACTO</a>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="talles.html">TALLES</a>
                         </li>
-                    </ul>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="text" placeholder="Buscar">
-                        <button class="btn btn-primary" type="button">Buscar</button>
-                    </form>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        </li>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center gap-5">
+                        <button class="btn px-4 py-1 rounded-4" type="submit"> Buscar </button>
+                    </div>
                 </div>
-            </div>
-        </nav>
+        </div>
+    </nav>
     <!--TERMINA NAVBAR-->
 
-        <!--EMPIEZA TIENDA-->
-        <h1 class="text-center text-black m-4">SHOP</h1>
 
-        <div class="galeria container-fluid">
-            <div class="row productos g-0">
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 p-0 text-center">
-                    <a href="#"> <img src="../multimedia/producto_1.jpg" alt="producto_1"></a>
-                    <div class="textProd m-2">
-                        <a href="#">
-                            <h1>PRODUCTO 1</h1>
-                        </a>
-                        <p>$12.000</p>
-                        <p class="pay">3 cuotas sin interés de $4.000</p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 p-0 text-center">
+    <!--EMPIEZA TIENDA-->
+    <h1 class="text-center text-black m-4">SHOP</h1>
+
+    <div class="galeria container-fluid">
+        <div class="row productos g-0">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 p-0 text-center">
+                <a href="#"> <img src="../multimedia/producto_1.jpg" alt="producto_1"></a>
+                <div class="textProd m-2">
                     <a href="#">
-                        <img src="../multimedia/producto_2.jpg" alt="producto_2">
+                        <h1>PRODUCTO 1</h1>
                     </a>
-                    <div class="textProd m-2">
-                        <a href="#">
-                            <h1>PRODUCTO 2</h1>
-                        </a>
-                        <p>$12.000</p>
-                        <p class="pay">3 cuotas sin interés de $4.000</p>
-                    </div>
+                    <p>$12.000</p>
+                    <p class="pay">3 cuotas sin interés de $4.000</p>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 p-0 text-center">
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 p-0 text-center">
+                <a href="#">
+                    <img src="../multimedia/producto_2.jpg" alt="producto_2">
+                </a>
+                <div class="textProd m-2">
                     <a href="#">
-                        <img src="../multimedia/producto_3.png" alt="producto_3">
+                        <h1>PRODUCTO 2</h1>
                     </a>
-                    <div class="textProd m-2">
-                        <a href="#">
-                            <h1>PRODUCTO 3</h1>
-                        </a>
-                        <p>$12.000</p>
-                        <p class="pay">3 cuotas sin interés de $4.000</p>
-                    </div>
+                    <p>$12.000</p>
+                    <p class="pay">3 cuotas sin interés de $4.000</p>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 p-0 text-center">
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 p-0 text-center">
+                <a href="#">
+                    <img src="../multimedia/producto_3.png" alt="producto_3">
+                </a>
+                <div class="textProd m-2">
                     <a href="#">
-                        <img src="../multimedia/producto_4.png" alt="producto_4">
+                        <h1>PRODUCTO 3</h1>
                     </a>
-                    <div class="textProd m-2">
-                        <a href="#">
-                            <h1>PRODUCTO 1</h1>
-                        </a>
-                        <p>$12.000</p>
-                        <p class="pay">3 cuotas sin interés de $4.000</p>
-                    </div>
+                    <p>$12.000</p>
+                    <p class="pay">3 cuotas sin interés de $4.000</p>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 p-0 text-center">
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 p-0 text-center">
+                <a href="#">
+                    <img src="../multimedia/producto_4.png" alt="producto_4">
+                </a>
+                <div class="textProd m-2">
                     <a href="#">
-                        <img src="../multimedia/producto_5.png" alt="producto_5">
+                        <h1>PRODUCTO 1</h1>
                     </a>
-                    <div class="textProd m-2">
-                        <a href="#">
-                            <h1>PRODUCTO 1</h1>
-                        </a>
-                        <p>$12.000</p>
-                        <p class="pay">3 cuotas sin interés de $4.000</p>
-                    </div>
+                    <p>$12.000</p>
+                    <p class="pay">3 cuotas sin interés de $4.000</p>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 p-0 text-center">
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 p-0 text-center">
+                <a href="#">
+                    <img src="../multimedia/producto_5.png" alt="producto_5">
+                </a>
+                <div class="textProd m-2">
                     <a href="#">
-                        <img src="../multimedia/producto_6.png" alt="producto_6">
+                        <h1>PRODUCTO 1</h1>
                     </a>
-                    <div class="textProd m-2">
-                        <a href="#">
-                            <h1>PRODUCTO 6</h1>
-                        </a>
-                        <p>$12.000</p>
-                        <p class="pay">3 cuotas sin interés de $4.000</p>
-                    </div>
+                    <p>$12.000</p>
+                    <p class="pay">3 cuotas sin interés de $4.000</p>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 p-0 text-center">
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 p-0 text-center">
+                <a href="#">
+                    <img src="../multimedia/producto_6.png" alt="producto_6">
+                </a>
+                <div class="textProd m-2">
                     <a href="#">
-                        <img src="../multimedia/producto_7.png" alt="producto_7">
+                        <h1>PRODUCTO 6</h1>
                     </a>
-                    <div class="textProd m-2">
-                        <a href="#">
-                            <h1>PRODUCTO 7</h1>
-                        </a>
-                        <p>$12.000</p>
-                        <p class="pay">3 cuotas sin interés de $4.000</p>
-                    </div>
+                    <p>$12.000</p>
+                    <p class="pay">3 cuotas sin interés de $4.000</p>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 p-0 text-center">
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 p-0 text-center">
+                <a href="#">
+                    <img src="../multimedia/producto_7.png" alt="producto_7">
+                </a>
+                <div class="textProd m-2">
                     <a href="#">
-                        <img src="../multimedia/producto_8.png" alt="producto_8">
+                        <h1>PRODUCTO 7</h1>
                     </a>
-                    <div class="textProd m-2">
-                        <a href="#">
-                            <h1>PRODUCTO 8</h1>
-                        </a>
-                        <p>$12.000</p>
-                        <p class="pay">3 cuotas sin interés de $4.000</p>
-                    </div>
+                    <p>$12.000</p>
+                    <p class="pay">3 cuotas sin interés de $4.000</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 p-0 text-center">
+                <a href="#">
+                    <img src="../multimedia/producto_8.png" alt="producto_8">
+                </a>
+                <div class="textProd m-2">
+                    <a href="#">
+                        <h1>PRODUCTO 8</h1>
+                    </a>
+                    <p>$12.000</p>
+                    <p class="pay">3 cuotas sin interés de $4.000</p>
                 </div>
             </div>
         </div>
-
-        
-        <nav aria-label="Page navigation">
-            <ul class="pagination justify-content-center text-black">
-                <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Previous">
-                        <span aria-hidden="true">«</span>
-                    </a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Next">
-                        <span aria-hidden="true">»</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-
-
-        <!--ARRANCA EL FOOTER-->
-        <footer>
-            <div class="navInf container-fluid"></div>
-            <div class="navInf row mb-3 text-center">
-                <div class="col-12 col-xl-2">
-                    <a href="../index.html">INICIO</a>
-                </div>
-                <div class="col-12 col-xl-2">
-                    <a href="#">SHOP</a>
-                </div>
-                <div class="col-12  col-xl-2">
-                    <a href="proyectos_fotográficos.html">PROJETS & COLLABS</a>
-                </div>
-                <div class="col-12 col-xl-2">
-                    <a href="acerca_de.html">ACERCA DE</a>
-                </div>
-                <div class="col-12 col-xl-2">
-                    <a href="talles.html">TALLES</a>
-                </div>
-                <div class="col-12 col-xl-2">
-                    <a href="contacto.html">CONTACTO</a>
-                </div>
-
-            </div>
-            <nav class="redes">
-                <a href="https://www.instagram.com/dunas.ar/" target="_blank"><i class="fa-brands fa-instagram"></i>
-                    <a href="https://www.facebook.com/dunas.ar" target="_blank"> <i class="fa-brands fa-facebook-f"></i>
-                        <a href="https://www.vimeo.com/" target="_blank"><i class="fa-brands fa-vimeo-v"></i> <a
-                                href="https://open.spotify.com" target="_blank"><i class="fa-brands fa-spotify"></i>
-            </nav>
-            <nav class="contacto">
-                <a href="mailto:dunas.ba@gmail.com" target="_blank">dunas.ba@gmail.com</a>
-                <a href="https://api.whatsapp.com/send/?phone=5491161158431" target="_blank">+5491161158431</a>
-            </nav>
-            <hr>
-            <div class="copy">
-                <p>© 2024 DUNAS TODOS LOS DERECHOS RESERVADOS</p>
-                <p>Diseñado por Cielo Piovani</p>
-            </div>
     </div>
+
+
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center text-black">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">«</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">»</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <!--ARRANCA EL FOOTER-->
+    <footer>
+        <div class="navInf container-fluid"></div>
+        <div class="navInf row mb-3 text-center">
+            <div class="col-12 col-xl-2">
+                <a href="../index.html">INICIO</a>
+            </div>
+            <div class="col-12 col-xl-2">
+                <a href="#">SHOP</a>
+            </div>
+            <div class="col-12  col-xl-2">
+                <a href="proyectos_fotográficos.html">PROJETS & COLLABS</a>
+            </div>
+            <div class="col-12 col-xl-2">
+                <a href="acerca_de.html">ACERCA DE</a>
+            </div>
+            <div class="col-12 col-xl-2">
+                <a href="talles.html">TALLES</a>
+            </div>
+            <div class="col-12 col-xl-2">
+                <a href="contacto.html">CONTACTO</a>
+            </div>
+
+        </div>
+        <nav class="redes">
+            <a href="https://www.instagram.com/dunas.ar/" target="_blank"><i class="fa-brands fa-instagram"></i>
+                <a href="https://www.facebook.com/dunas.ar" target="_blank"> <i class="fa-brands fa-facebook-f"></i>
+                    <a href="https://www.vimeo.com/" target="_blank"><i class="fa-brands fa-vimeo-v"></i> <a
+                            href="https://open.spotify.com" target="_blank"><i class="fa-brands fa-spotify"></i>
+        </nav>
+        <nav class="contacto">
+            <a href="mailto:dunas.ba@gmail.com" target="_blank">dunas.ba@gmail.com</a>
+            <a href="https://api.whatsapp.com/send/?phone=5491161158431" target="_blank">+5491161158431</a>
+        </nav>
+        <hr>
+        <div class="copy">
+            <p>© 2024 DUNAS TODOS LOS DERECHOS RESERVADOS</p>
+            <p>Diseñado por Cielo Piovani</p>
+        </div>
+        </div>
     </footer>
     <a href="https://walink.co/dac023" class="what">
         <i class="fa-brands fa-whatsapp"></i>
