@@ -89,7 +89,8 @@ body {
 
 .text1 {
   text-align: justify;
-  text-align-last: justify;
+  -moz-text-align-last: justify;
+       text-align-last: justify;
 }
 
 .text2, .text3 {
@@ -249,6 +250,4 @@ footer {
   .sidebar {
     background-color: #F3D98B;
   }
-}
-
-/*# sourceMappingURL=estilo.css.map */
+}/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,220 @@
+
+@import "_variables.scss";
+
+/*********PARTE SUPERIOR COMPARTIDA*********/
+body {
+    font-family: 'Roboto', sans-serif;
+    color: $color-font1;
+}
+
+.marquee {
+    color: $color-font3;
+    background-color: $color-bg2;
+    font-size: 14px;
+    padding: 4px 0px 0px;
+    font-weight: 500;
+}
+
+/*********inicio navbar*********/
+
+.btn-signup {
+    background-color: $color-bg2;
+    border-radius: 20px;
+}
+
+.navbar .nav-item a:hover {
+    font-weight: 700;
+}
+
+
+
+/*********PARTE MEDIA INDEX*********/
+.imgFondo {
+        background-image: url('../multimedia/foto_fondo_mobile.png');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+}
+
+
+.textFilo{
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 20px 0 20px;
+    padding: 20px;
+}
+
+.text1 {
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.text2, .text3 {
+    text-align: center;
+    align-items: center;
+}
+
+.textFilo h1{
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+/*********PARTE MEDIA SHOP*********/
+.productos img, .refTalles img, .proyectos img{
+    width: 100%;
+    height: auto;
+}
+
+.galeria h1 {
+    font-size: 16px;
+}
+
+.textProd a {
+    text-decoration: none;
+    font-weight: 600;
+    color: $color-font1;
+}
+
+.galeria a:hover {
+    font-style: italic;
+    font-weight: 800;
+    color: $color-font1;
+}
+
+.pay {
+    font-size: 12px;
+}
+
+.galeria article img{
+    height: auto;
+    width: 100%;
+}
+
+.galeria a:hover img {
+    border: 1px solid $color-bg1;
+}
+
+.pagination {
+    text-align: center;
+}
+
+/*********PARTE MEDIA ACERCA DE*********/
+.textosDesarrollo h1{
+    padding: 30px 60px 10px 60px;
+    font-size: 42px;
+    line-height: 40px;
+    font-weight: 300;
+}
+.textosDesarrollo p {
+    padding: 30px;
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: 300;
+}
+
+.colorFondo {
+    background-color: $color-bg5;
+}
+
+/*********PARTE MEDIA PROYECTOS*********/
+
+.textProy {
+    padding: 5px;
+    margin: 10px;
+
+        a {
+            text-decoration: none;
+            color: $color-font1;
+            border: 1px solid $color-font1;
+            padding: 7px;
+            border-radius: 20px;
+            font-weight: 500;
+            }
+
+                a:hover {
+                border: none;
+                padding: 8px;
+                border-radius: 20px;
+                font-weight: 700;
+                background-color: $color-bg4;
+                }
+}
+
+
+.proyectos img {
+    border-radius: 1.5%;
+}
+
+/***********PARTE MEDIA - NEWSLETTER**********/
+.newsletter {
+    text-align: center;
+    padding: 20px;
+
+        h1 {
+        font-size: 20px;
+        padding: 0px 0px 10px;
+        }
+
+        p {
+        font-size: 12px;
+        padding: 0px 0px 10px;
+        }
+
+}
+
+/**********PARTE INFERIOR*********/
+footer {
+    text-align: center;
+    background-color: $color-bg4;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.navInf a, .redes a, .contacto a {
+    text-decoration: none;
+    color: $color-font1;
+}
+
+.navInf a:hover, .contacto a:hover{
+    font-style: italic;
+    font-weight: 600;
+}
+
+.redes {
+    letter-spacing: 10px;
+    margin: 10px;
+}
+
+.what{
+    height: 50px;
+    width: 50px;
+    color: $color-font3;
+    background-color: $color-bg1;
+    text-decoration: none;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 35px;
+}
+
+
+/********** MEDIA QUERIES ***********/
+
+/*MEDIA QUERIES TABLET*/
+    
+@media only screen and (min-width:560px) {
+    .imgFondo {
+        background-image: url('../multimedia/foto_fondo_desktop.jpg');
+        background-size: cover;
+        height: 800px; }
+    }
+
+@media(max-width: 991px) {
+    .sidebar {
+        background-color:$color-bg3;
+    }
+}
