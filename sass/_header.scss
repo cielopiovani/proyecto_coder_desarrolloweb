@@ -1,0 +1,24 @@
+/*********PARTE SUPERIOR COMPARTIDA*********/
+body {
+    font-family: 'Roboto', sans-serif;
+    color: $color-font1;
+}
+
+.marquee {
+    color: $color-font3;
+    background-color: $color-bg2;
+    font-size: 14px;
+    padding: 4px 0px 0px;
+    font-weight: 500;
+}
+
+/*********inicio navbar*********/
+
+.btn-signup {
+    background-color: $color-bg2;
+    border-radius: 20px;
+}
+
+.navbar .nav-item a:hover {
+    font-weight: 700;
+}

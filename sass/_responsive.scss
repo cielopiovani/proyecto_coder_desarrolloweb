@@ -1,0 +1,16 @@
+/********** MEDIA QUERIES ***********/
+
+/*MEDIA QUERIES TABLET*/
+    
+@media only screen and (min-width:560px) {
+    .imgFondo {
+        background-image: url('../multimedia/foto_fondo_desktop.jpg');
+        background-size: cover;
+        height: 800px; }
+    }
+
+@media(max-width: 991px) {
+    .sidebar {
+        background-color:$color-bg3;
+    }
+}
