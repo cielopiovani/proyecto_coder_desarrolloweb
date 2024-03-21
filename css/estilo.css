@@ -160,16 +160,16 @@ body {
   padding: 2px 5px 2px 5px;
   margin: 10px;
   font-size: 13px;
-  background-color: black;
+  background-color: #000000;
   border-radius: 20px;
-  color: white;
+  color: #ffffff;
 }
 .contenedor-img figcaption {
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #ffffff;
   font-weight: 500;
   top: 0px;
   left: 0px;
@@ -227,23 +227,23 @@ body {
 }
 
 /*********PARTE MEDIA ACERCA DE*********/
-.textosDesarrollo h1 {
+.colorFondo {
+  background-color: rgba(253, 235, 195, 0.2666666667);
+}
+.colorFondo .textosDesarrollo h1 {
   padding: 30px 60px 10px 60px;
   font-size: 42px;
   line-height: 40px;
   font-weight: 300;
 }
-.textosDesarrollo p {
+.colorFondo .textosDesarrollo p {
   padding: 30px;
   font-size: 32px;
   line-height: 35px;
   font-weight: 300;
 }
 
-.colorFondo {
-  background-color: rgba(253, 235, 195, 0.2666666667);
-}
-
+/*********PARTE MEDIA CONTACTO*********/
 .contact-area {
   padding-top: 10px;
   padding-bottom: 50px;
@@ -254,12 +254,12 @@ body {
 }
 
 .contact-form input, .contact-form textarea {
-  background: rgba(243, 217, 139, 0.3294117647);
+  background: #FDEBC3;
   border: transparent;
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
-  color: black;
+  color: #000000;
   display: inline-block;
   font-size: 15px;
   font-weight: 300;
@@ -273,10 +273,10 @@ body {
 }
 
 .button-contact {
-  background-color: black;
+  background-color: #000000;
   border: none;
   border-radius: 30px;
-  color: white;
+  color: #ffffff;
   display: inline-block;
   font-size: 18px;
   font-weight: 400;
@@ -285,13 +285,13 @@ body {
   transition: all 0.3s ease 0s;
 }
 .button-contact:hover {
-  background-color: rgba(243, 217, 139, 0.3294117647);
-  color: black;
+  background-color: #FDEBC3;
+  color: #000000;
 }
 
 /***********PARTE MEDIA - NEWSLETTER**********/
 .subscribe-area {
-  background-color: black;
+  background-color: #000000;
   padding-bottom: 50px;
   padding-top: 70px;
   margin-bottom: 15;
@@ -300,12 +300,12 @@ body {
 .subscribe-text h1 {
   font-size: 20px;
   font-weight: 700;
-  color: #fff;
+  color: #ffffff;
   letter-spacing: 5px;
   margin-bottom: 15px;
 }
 .subscribe-text p {
-  color: #fff;
+  color: #ffffff;
   font-size: 12px;
   font-weight: 300;
   margin-bottom: 0;
@@ -319,9 +319,9 @@ body {
 
 .subscribe2-wrapper .subscribe-form input {
   background: none;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   border-radius: 30px;
-  color: #fff;
+  color: #ffffff;
   display: inline-block;
   font-size: 15px;
   font-weight: 300;
@@ -332,10 +332,10 @@ body {
   cursor: pointer;
 }
 .subscribe2-wrapper .subscribe-form button {
-  background: white;
+  background-color: #ffffff;
   border: none;
   border-radius: 30px;
-  color: #4b5d73;
+  color: #000000;
   display: inline-block;
   font-size: 18px;
   font-weight: 400;
@@ -344,7 +344,7 @@ body {
   transition: all 0.3s ease 0s;
 }
 
-/**********PARTE INFERIOR*********/
+/**********FOOTER*********/
 footer {
   text-align: center;
   background-color: #FDEBC3;
@@ -405,7 +405,7 @@ footer {
 
 @media (max-width: 991px) {
   .sidebar {
-    background-color: #F3D98B;
+    background-color: #FDEBC3;
   }
 }
 

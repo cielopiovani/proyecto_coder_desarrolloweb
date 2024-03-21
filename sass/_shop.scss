@@ -13,13 +13,13 @@
 .textProd a {
   text-decoration: none;
   font-weight: 600;
-  color: $color-font1;
+  color: $color-font-negro;
 }
 
 .galeria a:hover {
   font-style: italic;
   font-weight: 800;
-  color: $color-font1;
+  color: $color-font-negro;
 }
 
 .pay {
@@ -41,9 +41,9 @@
     padding: 2px 5px 2px 5px;
     margin: 10px;
     font-size: 13px;
-    background-color: black;
+    background-color: $color-bg-negro;
     border-radius: 20px;
-    color: white;
+    color: $color-font-blanco;
   }
 
   figcaption {
@@ -51,7 +51,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: $color-font-blanco;
     font-weight: 500;
     top: 0px;
     left: 0px;

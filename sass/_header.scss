@@ -1,12 +1,12 @@
 /*********PARTE SUPERIOR COMPARTIDA*********/
 body {
     font-family: 'Roboto', sans-serif;
-    color: $color-font1;
+    color: $color-font-negro;
 }
 
 .marquee {
-    color: $color-font3;
-    background-color: $color-bg2;
+    color: $color-font-blanco;
+    background-color: $color-bg-casinegro;
     font-size: 14px;
     padding: 4px 0px 0px;
     font-weight: 500;
@@ -15,7 +15,7 @@ body {
 /*********inicio navbar*********/
 
 .btn-signup {
-    background-color: $color-bg2;
+    background-color: $color-bg-casinegro;
     border-radius: 20px;
 }
 

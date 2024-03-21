@@ -1,7 +1,7 @@
-/**********PARTE INFERIOR*********/
+/**********FOOTER*********/
 footer {
     text-align: center;
-    background-color: $color-bg4;
+    background-color: $color-bg-crema;
     padding: 20px;
     font-size: 14px;
 }
@@ -10,7 +10,7 @@ footer {
 .redes a,
 .contacto a {
     text-decoration: none;
-    color: $color-font1;
+    color: $color-font-negro;
 }
 
 .navInf a:hover,
@@ -27,8 +27,8 @@ footer {
 .what {
     height: 50px;
     width: 50px;
-    color: $color-font3;
-    background-color: $color-bg1;
+    color: $color-font-blanco;
+    background-color: $color-bg-negro;
     text-decoration: none;
     position: fixed;
     right: 40px;

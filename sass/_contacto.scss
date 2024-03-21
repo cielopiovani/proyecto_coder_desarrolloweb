@@ -1,3 +1,4 @@
+/*********PARTE MEDIA CONTACTO*********/
 
 .contact-area {
     padding-top: 10px;    
@@ -10,12 +11,12 @@
 
 .contact-form {
     input, textarea {
-        background:#f3d98b54 ;
+        background:$color-bg-crema;
         border: transparent;
         margin-top: 10px;
         margin-bottom: 10px;
         border-radius: 10px;
-        color: black;
+        color: $color-font-negro;
         display: inline-block;
         font-size: 15px;
         font-weight: 300;
@@ -31,10 +32,10 @@
 }
 
 .button-contact {
-    background-color: black;
+    background-color: $color-bg-negro;
     border: none;
     border-radius: 30px;
-    color: white;
+    color: $color-font-blanco;
     display: inline-block;
     font-size: 18px;
     font-weight: 400;
@@ -43,7 +44,7 @@
     transition: all 0.3s ease 0s;
 
     &:hover {
-        background-color: #f3d98b54 ;
-        color: black;
+        background-color: $color-bg-crema;
+        color: $color-font-negro;
     }
 }
