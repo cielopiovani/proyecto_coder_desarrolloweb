@@ -30,7 +30,6 @@
     margin-bottom: 15px;
 }
 
-
 .subscribe2-wrapper .subscribe-form {
     input {
         background: none;
@@ -48,16 +47,7 @@
     }
 
     button {
-        background-color: $color-bg-blanco;
-        border: none;
-        border-radius: 30px;
-        color: $color-font-negro;
-        display: inline-block;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 1;
-        padding: 10px 30px;
-        transition: all 0.3s ease 0s;
+        @include botton;
     }
 
 }
