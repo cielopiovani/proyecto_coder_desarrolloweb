@@ -6,12 +6,15 @@ footer {
     font-size: 14px;
 }
 
-.navInf a, .redes a, .contacto a {
+.navInf a,
+.redes a,
+.contacto a {
     text-decoration: none;
     color: $color-font1;
 }
 
-.navInf a:hover, .contacto a:hover{
+.navInf a:hover,
+.contacto a:hover {
     font-style: italic;
     font-weight: 600;
 }
@@ -21,7 +24,7 @@ footer {
     margin: 10px;
 }
 
-.what{
+.what {
     height: 50px;
     width: 50px;
     color: $color-font3;

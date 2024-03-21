@@ -78,30 +78,6 @@ body {
   height: 100vh;
 }
 
-.textFilo {
-  width: 100%;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 40px;
-  margin: 20px 0 20px;
-  padding: 20px;
-}
-
-.text1 {
-  text-align: justify;
-  text-align-last: justify;
-}
-
-.text2, .text3 {
-  text-align: center;
-  align-items: center;
-}
-
-.textFilo h1 {
-  text-transform: uppercase;
-  font-weight: 200;
-}
-
 .vision {
   display: flex;
   flex-flow: row wrap;
@@ -111,13 +87,40 @@ body {
 .vision .item {
   width: 180px;
   height: 180px;
-  margin: 40px 10px 0px;
+  margin: 50px 10px 0px;
   font-size: 20px;
   text-align: center;
 }
+.vision i {
+  font-size: 40px;
+}
+
+.textFilo {
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 40px;
+  margin: 40px 0 60px;
+  padding: 20px;
+}
+.textFilo h1 {
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.textFilo .text1 {
+  text-align: justify;
+  text-align-last: justify;
+}
+.textFilo .text2,
+.textFilo .text3 {
+  text-align: center;
+  align-items: center;
+}
 
 /*********PARTE MEDIA SHOP*********/
-.productos img, .refTalles img, .proyectos img {
+.productos img,
+.refTalles img,
+.proyectos img {
   width: 100%;
   height: auto;
 }
@@ -142,12 +145,56 @@ body {
   font-size: 12px;
 }
 
-.galeria article img {
+.contenedor-img {
+  position: relative;
+  display: inline-block;
+}
+.contenedor-img .stock {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column-reverse;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 2px 5px 2px 5px;
+  margin: 10px;
+  font-size: 13px;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+}
+.contenedor-img figcaption {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background-color: rgba(133, 115, 98, 0.7529411765);
+  display: none;
+}
+.contenedor-img .text-figcaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contenedor-img p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.contenedor-img img {
   height: auto;
   width: 100%;
 }
-.galeria a:hover img {
-  border: 1px solid #000000;
+
+.contenedor-img:hover figcaption {
+  display: block;
 }
 
 .pagination {
@@ -197,18 +244,104 @@ body {
   background-color: rgba(253, 235, 195, 0.2666666667);
 }
 
+.contact-area {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.contact-wrapper {
+  overflow: hidden;
+}
+
+.contact-form input, .contact-form textarea {
+  background: rgba(243, 217, 139, 0.3294117647);
+  border: transparent;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: black;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 300;
+  height: 50px;
+  padding-left: 35px;
+  width: 70%;
+  cursor: pointer;
+}
+.contact-form textarea {
+  height: 100px;
+}
+
+.button-contact {
+  background-color: black;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 10px 30px;
+  transition: all 0.3s ease 0s;
+}
+.button-contact:hover {
+  background-color: rgba(243, 217, 139, 0.3294117647);
+  color: black;
+}
+
 /***********PARTE MEDIA - NEWSLETTER**********/
-.newsletter {
-  text-align: center;
-  padding: 20px;
+.subscribe-area {
+  background-color: black;
+  padding-bottom: 50px;
+  padding-top: 70px;
+  margin-bottom: 15;
 }
-.newsletter h1 {
+
+.subscribe-text h1 {
   font-size: 20px;
-  padding: 0px 0px 10px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
 }
-.newsletter p {
+.subscribe-text p {
+  color: #fff;
   font-size: 12px;
-  padding: 0px 0px 10px;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-top: 6px;
+}
+
+.subscribe-wrapper {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.subscribe2-wrapper .subscribe-form input {
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 300;
+  height: 57px;
+  margin-right: 17px;
+  padding-left: 35px;
+  width: 70%;
+  cursor: pointer;
+}
+.subscribe2-wrapper .subscribe-form button {
+  background: white;
+  border: none;
+  border-radius: 30px;
+  color: #4b5d73;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 10px 30px;
+  transition: all 0.3s ease 0s;
 }
 
 /**********PARTE INFERIOR*********/
@@ -219,12 +352,15 @@ footer {
   font-size: 14px;
 }
 
-.navInf a, .redes a, .contacto a {
+.navInf a,
+.redes a,
+.contacto a {
   text-decoration: none;
   color: #000000;
 }
 
-.navInf a:hover, .contacto a:hover {
+.navInf a:hover,
+.contacto a:hover {
   font-style: italic;
   font-weight: 600;
 }
@@ -257,6 +393,16 @@ footer {
     height: 800px;
   }
 }
+.subscribe-area {
+  text-align: center;
+}
+.subscribe-area .subscribe-form {
+  margin-top: 10px;
+}
+.subscribe-area button {
+  margin-top: 15px;
+}
+
 @media (max-width: 991px) {
   .sidebar {
     background-color: #F3D98B;

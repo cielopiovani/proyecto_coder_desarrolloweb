@@ -80,6 +80,8 @@
                             </div>
                         </div>
                     </div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </nav>
         <!--TERMINA NAVBAR-->
@@ -92,19 +94,19 @@
 
 <div class="vision">
     <div class="item">
-        <p>△</p>
+        <i class="bi bi-flower3"></i>
         <p>ALGODÓN DE CALIDAD</p>
     </div>
     <div class="item">
-        <p>△</p>
+        <i class="bi bi-feather"></i>
         <p>CONFECCIÓN ÉTICA</p>
     </div>
     <div class="item">
-        <p>△</p>
+        <i class="bi bi-globe-americas"></i>
         <p>PRODUCCIÓN NACIONAL</p>
     </div>
     <div class="item">
-        <p>△</p>
+        <i class="bi bi-egg-fried"></i>
         <p>DIVERSIDAD CORPORAL</p>
     </div>
 </div>
@@ -126,17 +128,29 @@
     </div>
 </div>
 
-    <!--ARRANCA SECTION NEWSLETER-->
-    <section class="newsletter">
-        <!--PRE-FOOTER-->
-        <h1>SUSCRIBITE A NUESTRO NEWSLETTER</h1>
-        <p>Correo mensual con descuentos especiales para suscriptores</p>
-        <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded" netlify>
-            <label for="email"></label>
-            <input type="email" id="email" name="email" required placeholder="dunas@gmail.com">
-            <input type="submit" value="Enviar">
-        </form>
-    </section>
+<!--ARRANCA SECTION NEWSLETER-->
+<section class="subscribe-area">
+    <div class="container">
+        <div class="row">
+                        <div class="col-12 col-md-4">
+                            <div class="subscribe-text">
+                                <h1>NEWSLETTER</h1>
+                                <p>Correo mensual con descuentos especiales para suscriptores</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <div class="subscribe-wrapper subscribe2-wrapper">
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input placeholder="Ingresa tu correo electrónico" type="email">
+                                        <button>SUSCRIBIRSE</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+        </div>
+    </div>
+</section>
 
     <!--ARRANCA EL FOOTER-->
     <footer>
@@ -187,7 +201,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
     <!-- JS AOS finaliza -->
 
 

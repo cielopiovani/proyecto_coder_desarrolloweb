@@ -1,16 +1,30 @@
 /********** MEDIA QUERIES ***********/
 
 /*MEDIA QUERIES TABLET*/
-    
+
 @media only screen and (min-width:560px) {
     .imgFondo {
         background-image: url('../multimedia/foto_fondo_desktop.jpg');
         background-size: cover;
-        height: 800px; }
+        height: 800px;
     }
+}
+
+.subscribe-area {
+    text-align: center;
+
+    .subscribe-form {
+        margin-top: 10px;
+    }
+
+    button {
+        margin-top: 15px;
+    }
+}
+
 
 @media(max-width: 991px) {
     .sidebar {
-        background-color:$color-bg3;
+        background-color: $color-bg3;
     }
 }

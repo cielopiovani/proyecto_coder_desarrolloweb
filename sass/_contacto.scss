@@ -1,0 +1,49 @@
+
+.contact-area {
+    padding-top: 10px;    
+    padding-bottom: 50px;
+}
+
+.contact-wrapper {
+    overflow: hidden;
+}
+
+.contact-form {
+    input, textarea {
+        background:#f3d98b54 ;
+        border: transparent;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        color: black;
+        display: inline-block;
+        font-size: 15px;
+        font-weight: 300;
+        height: 50px;
+        padding-left: 35px;
+        width: 70%;
+        cursor: pointer;
+    }
+
+    textarea {
+        height: 100px;
+    }
+}
+
+.button-contact {
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 10px 30px;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+        background-color: #f3d98b54 ;
+        color: black;
+    }
+}
