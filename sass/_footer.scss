@@ -24,7 +24,7 @@ footer {
     margin: 10px;
 }
 
-.what {
+.what {   
     height: 50px;
     width: 50px;
     color: $color-font-blanco;
@@ -34,6 +34,11 @@ footer {
     right: 40px;
     bottom: 40px;
     text-align: center;
-    font-size: 30px;
-    border-radius: 35px;
+    font-size: 33px;
+    border-radius: 50px;
+
+    :hover {
+        color: $color-bg-crema ;
+    }
+
 }

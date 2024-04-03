@@ -25,3 +25,18 @@
 .proyectos img {
     border-radius: 1.5%;
 }
+
+.col-proyectos {
+
+    .imagen2 {
+        display:none;
+    }
+
+    :hover .imagen1 {
+        display: none;
+    }
+
+    :hover .imagen2 {
+        display: block;
+    }
+}

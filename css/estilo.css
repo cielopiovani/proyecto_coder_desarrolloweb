@@ -68,8 +68,25 @@ body {
   font-size: 20px;
   text-align: center;
 }
+.vision a {
+  text-decoration: none;
+  color: #000000;
+}
 .vision i {
-  font-size: 40px;
+  font-size: 50px;
+  animation-name: rotacion;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  display: inline-block;
+}
+@keyframes rotacion {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(800deg);
+  }
 }
 
 .textFilo {
@@ -84,10 +101,7 @@ body {
   text-transform: uppercase;
   font-weight: 200;
 }
-.textFilo .text1 {
-  text-align: justify;
-  text-align-last: justify;
-}
+.textFilo .text1,
 .textFilo .text2,
 .textFilo .text3 {
   text-align: center;
@@ -199,6 +213,16 @@ body {
   border-radius: 1.5%;
 }
 
+.col-proyectos .imagen2 {
+  display: none;
+}
+.col-proyectos :hover .imagen1 {
+  display: none;
+}
+.col-proyectos :hover .imagen2 {
+  display: block;
+}
+
 /*********PARTE MEDIA ACERCA DE*********/
 .colorFondo {
   background-color: rgba(253, 235, 195, 0.2666666667);
@@ -211,9 +235,13 @@ body {
 }
 .colorFondo .textosDesarrollo p {
   padding: 30px;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 35px;
   font-weight: 300;
+}
+.colorFondo .refTalles p {
+  padding: 5px 20px 0px 20px;
+  font-size: 18px;
 }
 
 /*********PARTE MEDIA CONTACTO*********/
@@ -243,6 +271,7 @@ body {
 }
 .contact-form textarea {
   height: 100px;
+  padding-top: 10px;
 }
 
 .button-contact {
@@ -262,6 +291,10 @@ body {
 .button-contact:hover {
   background-color: #FDEBC3;
   color: #000000;
+}
+
+.iframe {
+  filter: grayscale(50%);
 }
 
 /***********PARTE MEDIA - NEWSLETTER**********/
@@ -355,8 +388,11 @@ footer {
   right: 40px;
   bottom: 40px;
   text-align: center;
-  font-size: 30px;
-  border-radius: 35px;
+  font-size: 33px;
+  border-radius: 50px;
+}
+.what :hover {
+  color: #FDEBC3;
 }
 
 /********** MEDIA QUERIES ***********/
@@ -365,14 +401,10 @@ footer {
   .imgFondo {
     background-image: url("../multimedia/foto_fondo_desktop.jpg");
     background-size: cover;
-    height: 800px;
+    height: 100vh;
   }
-  .shopicon {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: end;
-    height: 800px;
+  .shopicon .acceder-shop {
+    font-size: 25px;
   }
 }
 .subscribe-area {
@@ -385,9 +417,15 @@ footer {
   margin-top: 15px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 990px) {
   .sidebar {
     background-color: #FDEBC3;
+  }
+}
+/*MEDIA QUERIES DESKTOP*/
+@media (min-width: 990px) {
+  .imgFondo {
+    height: 800px;
   }
 }
 
