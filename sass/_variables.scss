@@ -17,7 +17,7 @@ $color-font-blanco: #ffffff;
 $font1: 'Roboto', sans-serif, ;
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: $font1;
   color: $color-font-negro;
 }
 
