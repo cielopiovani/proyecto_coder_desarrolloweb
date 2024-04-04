@@ -233,7 +233,7 @@ body {
   line-height: 40px;
   font-weight: 300;
 }
-.colorFondo .textosDesarrollo p {
+.colorFondo .textosDesarrollo h2 {
   padding: 30px;
   font-size: 26px;
   line-height: 35px;
@@ -241,7 +241,7 @@ body {
 }
 .colorFondo .refTalles p {
   padding: 5px 20px 0px 20px;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 /*********PARTE MEDIA CONTACTO*********/

@@ -16,8 +16,8 @@ Este es un sitio e-commerce, desarrollado durante el curso de Desarrollo Web en 
 * El proyecto se subió al servidor NETLIFY
 
 ## Vea el proyecto en:
-GITHUB PAGES: https://cielopiovani.github.io/proyecto_coder_desarrolloweb/index.html
-NETLIFY: https://dunas.netlify.app/pages/shop
+* GITHUB PAGES: https://cielopiovani.github.io/proyecto_coder_desarrolloweb/index.html
+* NETLIFY: https://dunas.netlify.app/pages/shop
 
 
 
